@@ -1,0 +1,41 @@
+{
+  "wood": {
+    "id": "wood",
+    "name": "Dřevo",
+    "description": "Základní stavební materiál. Získáš ho z těžení stromů.",
+    "icon": "🪵",
+    "stackSize": 99,
+    "type": "resource",
+    "edible": false
+  },
+  "stone": {
+    "id": "stone",
+    "name": "Kámen",
+    "description": "Tvrdý materiál pro výrobu nástrojů.",
+    "icon": "🪨",
+    "stackSize": 99,
+    "type": "resource",
+    "edible": false
+  },
+  "apple": {
+    "id": "apple",
+    "name": "Jablko",
+    "description": "Sladké ovoce ze stromů.",
+    "icon": "🍎",
+    "stackSize": 20,
+    "type": "food",
+    "edible": true,
+    "hungerRestore": 15,
+    "healthRestore": 5
+  },
+  "water_bottle": {
+    "id": "water_bottle",
+    "name": "Láhev vody",
+    "description": "Obnovuje žízeň.",
+    "icon": "💧",
+    "stackSize": 5,
+    "type": "consumable",
+    "edible": true,
+    "thirstRestore": 40
+  }
+}
